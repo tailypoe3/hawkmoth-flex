@@ -1,9 +1,8 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family:'Times New Roman', Times, serif
 }
-
 
 body {
     background-color: #000000;
@@ -15,21 +14,23 @@ body {
     width: 80%;
     display: flex;
     flex-direction: column;
+    
 }
-
+/*......Header......*/
 .header {
     display: flex;
     background-color: #1F2937;
     color: #F9FAF8;
-    padding: 10px 0px;
-    justify-content: space-around;
+    padding: 10px 110px;
+    justify-content: space-between;
     align-items: baseline;
 
 }
 
 .logo {
-    font-size: 24px; 
-    font-weight: 900;    
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;  
 }
 
 .top-links {
@@ -42,14 +43,150 @@ a {
     text-decoration: none;
     color: #F9FAF8  
 }
+ /*......Section One- all sections pad 50x110*/
 
+ .section-one {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 110px;
+    gap: 25px;
+ }
 
+ .title-left {
+    
+ }
 
+ .title {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: extra-bold;
+    
+ }
 
+ .title-subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+ }
 
+ .products {
+    background-color: #3882F6;
+    border-radius: 5px;
+    padding: 5px 15px;
+    border: solid thin black;
+ }
 
+ .title-right {
+    font-size: 18px;
+    color: #E5E7EB;
+    background: #9d9fa3;
+    flex-shrink: 0;
+    width: 50%;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+ }
+ /*......Section Two......*/
+.section-two {
+    padding: 50px 110px;
+    background-color: white; 
+    color: #1F2937;  
+}
 
+.gallery {
+    font-size: 36px;
+    font-weight: extra-bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
 
+img {
+    width: 150px;
+    height: 150px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    
+}
+
+.text {
+    font-size: 18px;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 150px;
+}
+
+/*......Section Three......*/
+
+.section-three {
+    padding: 50px 110px;
+    background-color: #E5E7EB;
+    color: #1F2937;
+}
+ .quote-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 60px;
+    
+ }
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+}
+
+ .quote-by {
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    justify-content: end;
+ }
+/*......Section Four......*/
+.section-four {
+    padding: 50px 110px; 
+    background-color: white;  
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+}
+
+.email-container {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    flex: auto;
+    border-radius: 5px;
+    padding: 20px;
+    max-width: 600px;
+    
+}
+
+.email-list {
+    font-size: 24px;
+    font-weight: bold;
+}
+ .email-decribe {
+    font-size: 18px;
+ }
+
+.sign-up {
+    background-color: #3882F6;
+    border-radius: 5px;
+    color: #F9FAF8;
+    border: solid thin white;
+    padding: 0px 20px;
+}
 
 
 
