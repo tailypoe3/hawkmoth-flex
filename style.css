@@ -19,18 +19,16 @@ body {
 /*......Header......*/
 .header {
     display: flex;
-    background-color: #1F2937;
+    background-color: #9E6E47;
     color: #F9FAF8;
     padding: 10px 110px;
     justify-content: space-between;
-    align-items: baseline;
-
+    align-items: center;
 }
 
-.logo {
-    font-size: 24px;
-    font-weight: bold;
-    color: #F9FAF8;  
+.logo {  
+    height: 80px;
+    width: 80px;
 }
 
 .top-links {
@@ -73,7 +71,7 @@ a {
  }
 
  .products {
-    background-color: #3882F6;
+    background-color: #9E6E47;
     border-radius: 5px;
     padding: 5px 15px;
     border: solid thin black;
@@ -160,7 +158,7 @@ img {
 }
 
 .email-container {
-    background-color: #3882F6;
+    background-color: #9E6E47;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -181,7 +179,7 @@ img {
  }
 
 .sign-up {
-    background-color: #3882F6;
+    background-color: #9E6E47;
     border-radius: 5px;
     color: #F9FAF8;
     border: solid thin white;
